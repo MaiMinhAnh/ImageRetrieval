@@ -5,7 +5,7 @@ class Searcher:
 	def __init__(self, indexPath):
 		self.indexPath = indexPath
 
-	def  search(self, queryFeature, limit = 2):
+	def  search(self, queryFeature, limit = 5):
 		result = {}
 
 		with open(self.indexPath) as f:
